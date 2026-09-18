@@ -4,131 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Contact page</title>
+    <title>Contact & Season Ratings - The Walking Dead</title>
 </head>
 <body>
     <header>
-     <h1> All Seasons Data & Feedback </h1>
+        <h1>All Seasons Data & Feedback</h1>
     </header>
+
     <nav>
-    <a href="index.html">Home </a>
-     <a href="about.html">About</a>
-     <a href="contact.html">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
     </nav>
+
     <main>
-     <h2>Complete Season Ratings Table</h2>
-     <table border ="1">
-        <thead>
-            <tr>
-                <th>Season</th>
-                <th>Release Year</th>
-                <th>Episodes</th>
-                <th>Average Rating</th>
-            </tr>
+        <h2>Complete Season Ratings Table</h2>
+
+        
+        <table >
+            <caption>Complete Ratings and Episode Breakdown for All Seasons</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Season</th>
+                    <th scope="col">Release Year</th>
+                    <th scope="col">Episodes</th>
+                    <th scope="col">Average Rating</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>Season 1</td>
-                <td>2010</td>
-                <td>6</td>
-                <td>8.6</td>
-            </tr>
-            <tr>
-                <td>Season 2</td>
-                <td>2011</td>
-                <td>13</td>
-                <td>8.2</td>
-            </tr>
-            <tr>
-                <td>Season 3</td>
-                <td>2012</td>
-                <td>16</td>
-                <td>8.6</td>
-            </tr>
-            <tr>
-                <td>Season 4</td>
-                <td>2013</td>
-                <td>16</td>
-                <td>8.5</td>
-            </tr>
-            <tr>
-                <td>Season 5</td>
-                <td>2014</td>
-                <td>16</td>
-                <td>8.6</td>
-            </tr>
-            <tr>
-                <td>Season 6</td>
-                <td>2015</td>
-                <td>16</td>
-                <td>8.3</td>
-            </tr>
-            <tr>
-                <td>Season 7</td>
-                <td>2016</td>
-                <td>16</td>
-                <td>7.6</td>
-            </tr>
-            <tr>
-                <td>Season 8</td>
-                <td>2017</td>
-                <td>16</td>
-                <td>7.0</td>
-            </tr>
-            <tr>
-                <td>Season 9</td>
-                <td>2018</td>
-                <td>16</td>
-                <td>7.9</td>
-            </tr>
-            <tr>
-                <td>Season 10</td>
-                <td>2019</td>
-                <td>22</td>
-                <td>7.7</td>
-            </tr>
-            <tr>
-                <td>Season 11</td>
-                <td>2021</td>
-                <td>24</td>
-                <td>7.8</td>
-            </tr>
-     </tbody>
-     </table>
-     <h2>Leave your Feedback</h2>
-     <form action="#" method="post">
-        <p>
-            <label for="username">Your Name:</label><br>
-            <input type="text" id="username" name="username" required>
-        </p>
-        <p>
-            <label for="favorite-season">Favorite Season:</label><br>
-            <select id="favorite-season" name="favorite_season">
-                <option value="s1">Season 1</option>
-                <option value="s2">Season 2</option>
-                <option value="s3">Season 3</option>
-                <option value="s4">Season 4</option>
-                <option value="s5">Season 5</option>
-                <option value="s6">Season 6</option>
-                <option value="s7">Season 7</option>
-                <option value="s8">Season 8</option>
-                <option value="s9">Season 9</option>
-                <option value="s10">Season 10</option>
-                <option value="s11">Season 11</option>
-            </select>
-     </p>
-     <p>
-        <label for="message">Your Review / Comments:</label><br>
-        <textarea id ="message" name="message" rows="4" cols="40">  </textarea>
-     </p>
-     <p>
-        <button type="submit">Submit Feedback</button>
-     </p>
-     </form>
+                <tr>
+                    <td>Season 1</td>
+                    <td>2010</td>
+                    <td>6</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>Season 2</td>
+                    <td>2011</td>
+                    <td>13</td>
+                    <td>8.2</td>
+                </tr>
+                <tr>
+                    <td>Season 3</td>
+                    <td>2012</td>
+                    <td>16</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>Season 4</td>
+                    <td>2013</td>
+                    <td>16</td>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>Season 5</td>
+                    <td>2014</td>
+                    <td>16</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>Season 6</td>
+                    <td>2015</td>
+                    <td>16</td>
+                    <td>8.3</td>
+                </tr>
+                <tr>
+                    <td>Season 7</td>
+                    <td>2016</td>
+                    <td>16</td>
+                    <td>7.6</td>
+                </tr>
+                <tr>
+                    <td>Season 8</td>
+                    <td>2017</td>
+                    <td>16</td>
+                    <td>7.0</td>
+                </tr>
+                <tr>
+                    <td>Season 9</td>
+                    <td>2018</td>
+                    <td>16</td>
+                    <td>7.9</td>
+                </tr>
+                <tr>
+                    <td>Season 10</td>
+                    <td>2019</td>
+                    <td>22</td>
+                    <td>7.7</td>
+                </tr>
+                <tr>
+                    <td>Season 11</td>
+                    <td>2021</td>
+                    <td>24</td>
+                    <td>7.8</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                   
+                    <td colspan="3"><strong>Total Seasons / Average Overall Rating:</strong></td>
+                    <td><strong>8.08</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Leave your Feedback</h2>
+
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend>User Information & Feedback Form</legend>
+
+                
+                <p>
+                    <label for="username">Your Name:</label><br>
+                    <input type="text" id="username" name="username" minlength="3" required>
+                </p>
+
+                
+                <p>
+                    <label for="email">Your Email:</label><br>
+                    <input type="email" id="email" name="user_email" required>
+                </p>
+
+                
+                <p>
+                    <label for="watch-date">Date You Finished Watching:</label><br>
+                    <input type="date" id="watch-date" name="watch_date">
+                </p>
+
+                
+                <p>
+                    <label for="favorite-season">Favorite Season:</label><br>
+                    <select id="favorite-season" name="favorite_season">
+                        <option value="s1">Season 1</option>
+                        <option value="s2">Season 2</option>
+                        <option value="s3">Season 3</option>
+                        <option value="s4">Season 4</option>
+                        <option value="s5">Season 5</option>
+                        <option value="s6">Season 6</option>
+                        <option value="s7">Season 7</option>
+                        <option value="s8">Season 8</option>
+                        <option value="s9">Season 9</option>
+                        <option value="s10">Season 10</option>
+                        <option value="s11">Season 11</option>
+                    </select>
+                </p>
+
+                
+                <p>
+                    <span>Would you recommend this show to a friend?</span><br>
+                    <input type="radio" id="rec-yes" name="recommend" value="yes" checked>
+                    <label for="rec-yes">Yes</label>
+                    
+                    <input type="radio" id="rec-no" name="recommend" value="no">
+                    <label for="rec-no">No</label>
+                </p>
+
+                
+                <p>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe to series updates</label>
+                </p>
+
+                
+                <p>
+                    <label for="message">Your Review / Comments:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Feedback</button>
+                </p>
+            </fieldset>
+        </form>
     </main>
+
     <footer>
-        <p>&copy; 2026 The Walking Dead Ratings Portal. Created by Dossymzhan
-</p>
+        <hr>
+        <p>&copy; 2026 The Walking Dead Ratings Portal. Created by Dossymzhan</p>
     </footer>
 </body>
 </html>
